@@ -1,7 +1,22 @@
 .flex{
-  width: 500px;
+  display: flex;
+  /* flex-flow: row-reverse wrap; */
+  justify-content: center;
+  border: 3px solid black;
+  background-color: #4E57FF4F;
+  margin: 50px 20px;
+  height: 600px;
+  gap: 20px;
+  align-items: start;
+  flex-direction: column;  
+  flex-wrap: wrap;
 }
 
 .item{
-
+  padding: 25px;
+  background-color: #4E56FF;
+  border: 3px solid #48D359;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 900;
 }
