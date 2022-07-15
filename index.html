@@ -4,16 +4,91 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flexbox</title>
+  <title>Meus Favoritos</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="flex">
-    <div class="item">1</div>
-    <div class="item">2</div>
-    <div class="item">3</div>
-    <div class="item">4</div>
-    <div class="item">5</div>
-  </div>
+  <header>
+    <div class="navbar">
+      <div>
+        <img src="img/LogoFavs.png" alt="Logo Meus Favoritos" width="200px" />
+      </div>
+      <div>
+        <ul class="nav-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+          <li><a href="#">Cadastrar</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section>
+    <div class="content">      
+      <div class="formulario">
+        <p class="add-favoritos">Adicionar Favoritos</p>
+        <form>
+          <label for="site">Nome,URL</label>
+          <input type="text" id="site" class="input-form" placeholder="Digite o Nome do Site e a URL separados por vírgula">
+          <button class="button-enviar">Enviar</button>
+        </form>
+      </div>
+      <div class="favoritos">
+        <p class="meus-favoritos">Meus Favoritos</p>
+        <lu class="favoritos-list">
+          <li><a href="https://wwww.google.com">Google</a></li>
+          <li><a href="https://wwww.github.com">Github</a></li>
+          <li><a href="https://wwww.globoesporte.com">Globo Esporte</a></li>
+          <li><a href="https://wwww.stackoverflow.com">Stackoverflow</a></li>
+        </lu>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="cards">
+      <div class="card-item">
+        <div>
+          <img src="img/foneAnuncie.png" alt="Foto Exemplo" width="100%">
+        </div>
+        <div>
+          <p>Coloque seu anúncio aqui. E intensifique suas vendas.</p>
+        </div>
+        <div class="card-link">
+          <a href="#">Contratar</a>
+        </div>
+      </div>
+      <div class="card-item">
+        <div>
+          <img src="img/anuncie-conosco.png" alt="Foto Exemplo" width="100%">
+        </div>
+        <div>
+          <p>Faça seu anúncio ser visto por mais pessoas.</p>
+        </div>
+        <div class="card-link">
+          <a href="#">Contratar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="footer">
+      <div class="mapa-site">
+        <ul class="mapa-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+          <li><a href="#">Cadastrar</a></li>
+        </ul>
+      </div>
+      <div class="contatos">
+        <ul class="contatos-list">
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Github</a></li>
+          <li><a href="#">(68) 99999-3566</a></li>
+          <li><a href="#">email@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
